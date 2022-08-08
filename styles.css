@@ -1,0 +1,278 @@
+
+
+header img {
+    width: 60%;
+}
+
+.body {
+    font-family: monospace;
+    padding: 1em;
+}
+
+.body img {
+	width: 100%;
+    box-shadow: 0px 0px 10px 3px slategray;
+}
+.body hr {
+    max-width: 90%;
+}
+
+.midcolumn{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: auto;
+	max-width: 50em;
+}
+.title{
+	text-align: center;
+}
+.header{
+	font-family: monospace;
+        color: white;
+}
+
+h1, body, header, title, .copy {
+    color: white;
+}
+
+body{
+    background-color: black;
+    margin-top: 2em;
+}
+
+a {
+    color: red;
+    font-weight: bold;
+}
+
+a:hover {
+    color: aqua;
+    }
+
+.copy{
+	max-width:40em;
+	margin: 3em auto;
+    text-align: center;
+}
+.supply{
+	text-align: center;
+	margin: auto;
+	font-family: monospace;
+}
+.preview {
+	object-fit: cover;
+	max-width: 512px;
+	text-align: center;
+	margin: auto;
+	font-style: italic;
+    padding: 2em;
+}
+
+.gif-box {
+	max-width: 40em;
+	margin: 3em auto;
+	font-style: italic;
+    padding: 3em 4em;
+    background: #0f0f0f;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-gap: 2em;
+    	border: thick outset grey;
+     box-shadow: 0px 0px 10px 3px slategray;
+    line-height: 1.5em;
+}
+
+
+.gif-box2 {
+	max-width: 40em;
+	margin: 3em auto;
+	font-style: italic;
+    padding: 3em 4em;
+    background: #0f0f0f;
+    	border: thick outset grey;
+     box-shadow: 0px 0px 10px 3px slategray;
+    line-height: 1.5em;
+}
+
+
+.controls{
+	display: flex;
+	flex-direction: column;
+	max-width: 45em;
+	border: thick outset grey;
+	font-family: monospace;
+	margin: auto;
+	margin-bottom: 32px;
+    background: #0f0f0f;
+    box-shadow: 0px 0px 10px 3px slategray;
+    padding: 2em 0em;
+}
+
+.mint-container {
+    min-width: 65%;
+    max-width: 90%;
+    margin: auto;
+    
+/*    width: fit-content;*/
+}
+.mint-box{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	text-align: left;
+	margin: auto;
+    margin-bottom: 2em;
+	padding: 0px 20px;
+    line-height: 1.5em;
+    font-size: 1.2em;
+    border: 2px solid white;
+    background: black;
+    box-shadow: 0px 0px 10px 3px slategray;
+/*    max-width: 20em;*/
+}
+
+.mint-control-1 button {
+    background: url('assets/mint-01.png');
+}
+.mint-control-1:hover > .mint-01 {
+    background: url('assets/mint-01-hover.png');
+        background-position:center;
+    background-repeat:no-repeat;
+    background-size: contain;
+}
+
+
+.mint-box:hover {
+    color: aqua;
+    border: 2px solid aqua;
+    box-shadow: 0px 0px 10px 3px aqua;
+    background-color: #0f0f0f;
+}
+
+.mint-control-5 button {
+    background: url('assets/mint-05.png');
+}
+
+.mint-control-5:hover > .mint-05{
+    background: url('assets/mint-05-hover.png');
+        background-position:center;
+    background-repeat:no-repeat;
+    background-size: contain;
+}
+
+.mint-control-10 button {
+    background: url('assets/mint-10.png');
+}
+
+.mint-control-10:hover > .mint-10{
+    background: url('assets/mint-10-hover.png');
+        background-position:center;
+    background-repeat:no-repeat;
+    background-size: contain;
+}
+
+.wallet-connect {
+    margin: auto;
+}
+.wallet-connect button {
+    background: url('assets/connect-wallet.png');
+        background-position:center;
+    background-repeat:no-repeat;
+    background-size: contain;
+    height: 10em;
+    width: 16em;
+    border: none;
+}
+    
+.wallet-connect button:hover {
+    background: url('assets/connect-wallet-hover.png'); 
+            background-position:center;
+    background-repeat:no-repeat;
+    background-size: contain;
+}
+
+
+.mint-container button {
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size: contain;
+    width: 8em;
+    height: 4em;
+    border: none;
+    margin-top:auto;
+    margin-bottom: auto;
+    cursor: pointer;
+
+}
+
+
+
+}
+.wallet-connect{
+	max-width: 50%;
+	margin: auto;
+	padding: 16px;
+}
+.wallet-info{
+	max-width: 80%;
+	margin: auto;
+	padding: 16px;
+	text-align: center;
+}
+
+.wallet-number {
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.error-message{
+	color: red;
+	font-weight: bold;
+}
+.store-link{
+	color: red;
+	font-weight: bold;
+	font-family: monospace;
+	text-align: center;
+	font-size: 2em;
+	border: 2px solid red;
+	max-width: 256px;
+	margin: auto;
+}
+.footer{
+	font-family: monospace;
+	text-align: center;
+	display: inline-block;
+    width: 100%;
+    margin: auto;
+}
+
+
+@media only screen and (max-width: 600px) {
+    
+.midcolumn {
+    width: 100%;
+}
+    
+.gif-box {
+    padding: 5% 5%;
+    display: block;
+    border: thick outset grey;
+    box-shadow: 0px 0px 10px 3px slategray;
+    line-height: 1.5em;
+    text-align: center;
+    }
+}
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
